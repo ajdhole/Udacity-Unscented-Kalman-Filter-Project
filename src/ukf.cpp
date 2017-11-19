@@ -44,7 +44,7 @@ UKF::UKF() {
     H_(0,0) = 1.0;
     H_(1,1) = 1.0;
     
-    //create vector for weights
+  //create vector for weights
 
     weights_ = VectorXd(sigma_points_); // initial weights matrix
     for (int i=1; i<sigma_points_; i++) {weights_[i] = 0.5/(n_aug_+lambda_);} // generate weights values
@@ -247,7 +247,7 @@ void UKF::UpdateLidar(MeasurementPackage meas_package) {
     
     // calculate NIS value
     nis_laser_ = y.transpose() * S.inverse() * y;
-    cout << "\nL\t" << nis_laser_;
+    cout << "\nL:\t" << nis_laser_;
 }
 
 /**
