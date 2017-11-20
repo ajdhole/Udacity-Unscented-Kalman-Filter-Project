@@ -123,7 +123,7 @@ void UKF::ProcessMeasurement(MeasurementPackage meas_package) {
         else if (use_laser_ && (meas_package.sensor_type_ == MeasurementPackage::LASER)) {
             x_[0] = meas_package.raw_measurements_[0];
             x_[1] = meas_package.raw_measurements_[1];
-            is_initialized_ = false;
+            is_initialized_ = true;
         }
     }
     else {
