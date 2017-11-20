@@ -1,4 +1,4 @@
-# Extended Kalman Filter Project
+# Unscented Kalman Filter Project
 [image1]: ./images/Lidar_nis.png "NIS LIDAR Result" 
 [image2]: ./images/Radar_nis.png "NIS Radar Result"
 ![alt text][image1] ![alt text][image2] 
