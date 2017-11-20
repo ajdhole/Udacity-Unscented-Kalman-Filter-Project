@@ -10,7 +10,7 @@
 
 Self-Driving Car Engineer Nanodegree Program
 
-In this project utilize an Unscented Kalman Filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. Passing the project requires obtaining RMSE values that are lower that the tolerance outlined in the project rubric. 
+In this project utilize an Unscented Kalman Filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. The px, py, vx, and vy RMSE obtained as [ 0.07, 0.08, 0.31, 0.25] which is lower than the passing RMSE requirement as [0.09, 0.10, 0.40, 0.30].
 
 This project involves the Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases)
 
